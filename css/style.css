@@ -1,0 +1,62 @@
+body {
+  background: #fff;
+  color: black;
+  font-family: "nunito sans";
+}
+
+/* shoot css */
+
+.orange-background {
+  background: #fff;
+  color: rgb(241, 91, 34);
+  border: 1px rgb(241, 91, 34) solid;
+}
+
+.orange-background:hover {
+  background: rgb(241, 91, 34);
+  color: #fff;
+}
+
+.book {
+  background: url("../img/TAMU-LP.jpeg");
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.move-down {
+  padding-top: 150px;
+}
+
+.photographer {
+  background: url("../img/white-girl-lp.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  body {
+    text-align: center !important;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
